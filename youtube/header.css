@@ -1,0 +1,15 @@
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 56px;
+  width: 100vw;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+}
+.header-input-box input {
+  width: 500px;
+  font-size: 20px;
+}

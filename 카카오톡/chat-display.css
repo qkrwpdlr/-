@@ -1,0 +1,54 @@
+.header-top,
+.header-bottom,
+body {
+  background-color: #a1c8d6;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-box-time {
+  font-size: 8px;
+  color: #505050;
+}
+.message-box-message {
+    background-color: white;
+    padding : 5px;
+    border-radius: 7px;
+    margin : 5px;
+
+    display: inline-block;
+    max-width: 300px;
+    
+}
+
+.message-right{
+    margin-left: auto;
+}
+.message-right > .message-box-message{
+    background-color: yellow;
+}
+
+.input-box{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width : 100vw;
+    padding-bottom : 10px;
+    padding-top : 10px;
+    font-size: 20px;
+    background-color : #eeeeee;
+}
+.input-box > input {
+    width : 80vw;
+    height: 30px;
+}
+.input-box > button {
+    width : 10%;
+    height: 30px;
+}

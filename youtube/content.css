@@ -1,0 +1,112 @@
+main {
+  float: left;
+  padding-left: 300px;
+  width: calc(100% - 350px);
+  padding-right: 5px;
+  padding-top: 100px;
+  background-color: rgb(250, 250, 250);
+  height: calc(100% - 100px);
+  padding-bottom: 400px;
+}
+.content-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  display: block;
+}
+.content-title-views {
+  color: rgb(194, 194, 194);
+}
+.youtuber-div-img {
+  width: 50px;
+  display: inline-block;
+  height: 50px;
+  border-radius: 100%;
+}
+.youtuber-div-info {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+.youtuber-div-info span {
+  display: block;
+}
+.youtuber-div-info-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.youtuber-div-info-date {
+  color: rgb(141, 141, 141);
+  font-size: 12px;
+}
+.youtuber-div-views {
+  display: block;
+  float: right;
+  margin-right: 30px;
+  padding: 15px;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}
+.youtuber-div {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yotube-reply-content-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: inline-block;
+}
+.yotube-reply-content-post {
+  display: inline-block;
+  margin-left: 30px;
+}
+.yotube-reply-content-post span {
+  display: block;
+}
+.reply-count {
+  font-size: 20px;
+}
+.yotube-reply-content-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.yotube-reply-content-goodBad {
+  margin-top: 10px;
+  color: rgb(194, 194, 194);
+}
+.yotube-reply-content-goodBad i {
+  margin-right: 30px;
+}
+.yotube-reply-content {
+  margin-top: 30px;
+}
+.reply-add input {
+  margin-left: 100px;
+  width: 70%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.reply-add input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(87, 87, 254);
+}
+.reply-add div {
+  display: inline-block;
+  padding: 10px;
+  /* background-color: blanchedalmond; */
+  border-radius: 10px;
+  color: rgb(194, 194, 194);
+}
+
+.reply-add input:focus + div {
+  color: black;
+}

@@ -1,0 +1,90 @@
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="chat-display.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="header-left">
+          <i class="fas fa-plane"></i>
+          <i class="fas fa-wifi"></i>
+        </div>
+
+        <div class="header-center">
+          <span>
+            12:30
+          </span>
+        </div>
+
+        <div class="header-right">
+          <span>
+            49%
+            <i class="fas fa-battery-half"></i>
+          </span>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <span class="header-left"><i class="fas fa-angle-left"></i></span>
+        <span class="header-center">곰돌이 친구들</span>
+      </div>
+    </header>
+
+    <main>
+      <div class="message-box message-right">
+        <span class="message-box-time">
+          12:20
+        </span>
+        <span class="message-box-message">
+          안녕?
+        </span>
+      </div>
+
+      <div class="message-box">
+        <span class="message-box-message">
+          안녕 나는 누구누구야안녕 나는 누구누구야안녕 나는 누구누구야안녕 나는
+          누구누구야안녕 나는 누구누구야안녕 나는 누구누구야안녕 나는
+          누구누구야안녕 나는 누구누구야안녕 나는 누구누구야안녕 나는
+          누구누구야안녕 나는 누구누구야안녕 나는 누구누구야안녕 나는
+          누구누구야안녕 나는 누구누구야안녕 나는 누구누구야안녕 나는 누구누구야
+        </span>
+        <span class="message-box-time">
+          12:21
+        </span>
+      </div>
+    </main>
+
+    <div class="input-box">
+      <i class="fas fa-plus"></i>
+      <input id="input-box-message" type="text" />
+      <button onclick="addMessage()">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+    <script>
+      function addMessage() {
+        var message = `
+        <div class="message-box message-right">
+        <span class="message-box-time">
+          12:20
+        </span>
+        <span class="message-box-message">
+          ${document.getElementById("input-box-message").value}
+        </span>
+      </div>
+      `;
+        document.getElementById("input-box-message").value = "";
+        document.getElementsByTagName("main")[0].innerHTML += message;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+nav {
+  background-color: #f7f7f7;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #c1c1c1;
+  padding: 10px 30px 5px 30px;
+  width: calc(100% - 60px);
+  font-size: 24px;
+  text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color : black;
+}

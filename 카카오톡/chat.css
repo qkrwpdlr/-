@@ -1,0 +1,34 @@
+.chat-box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.chat-box a{
+  display: flex;
+  margin: 10px;
+  padding: 6px;
+  border-bottom: 1px black solid;
+}
+
+.chat-box>a {
+  display: flex;
+}
+
+.chat-time {
+  margin-left: auto;
+}
+
+.chat-box div {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-comment, .chat-time {
+  color: #939393;
+}
+
+.chat-title {
+  font-size: 20px;
+}

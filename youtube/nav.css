@@ -1,0 +1,23 @@
+nav {
+  position: fixed;
+  float: left;
+  width: 240px;
+  height: 100vh;
+  margin-top: 56px;
+  background-color: rgb(245, 245, 245);
+  font-size: 18px;
+  color: rgb(116, 116, 116);
+}
+
+nav > div {
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+nav > div > span {
+  margin-left: 15px;
+}
+nav > div:hover{
+  background-color: rgb(220, 220, 220);
+}

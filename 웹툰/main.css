@@ -1,0 +1,35 @@
+.webtoonBox {
+  display: inline-block;
+  width: 220px;
+  height: 115px;
+  position: relative;
+  margin: 4px;
+}
+.webtoonBox > div {
+  display: inline-block;
+  top: 0;
+  position: absolute;
+}
+.webtoonBox > img {
+  width: 83px;
+  height: 90px;
+  display: inline-block;
+}
+#mainBox {
+  display: block;
+  width: 694px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+#mainTitle {
+  font-size: 20px;
+  text-align: center;
+}
+#mainBox > audio  {
+  display: block;
+  margin: auto
+}
+a {
+    text-decoration: none;
+}

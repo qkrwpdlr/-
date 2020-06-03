@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header-bottom,
+.header-top {
+  display: flex;
+  background-color: #523737;
+  color: white;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.header-bottom {
+  font-size: 20px;
+}
+
+.header-bottom > span,
+.header-top > div {
+  width: 33%;
+}
+
+.header-left {
+  text-align: left;
+}
+.header-center {
+  text-align: center;
+}
+.header-right {
+  text-align: right;
+}
+.yellow-friend {
+  color: yellow;
+}
